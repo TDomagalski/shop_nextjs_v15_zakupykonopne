@@ -18,5 +18,11 @@
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
     "sass": "^1.85.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "sharp"
+    ]
   }
 }
